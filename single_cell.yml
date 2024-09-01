@@ -1,0 +1,8 @@
+name: single_cell
+channels:
+  - conda-forge
+  - bioconda
+  - anaconda
+  - defaults
+  - nodefaults
+prefix: /hpcfs/home/ciencias_biologicas/na.portilla10/.conda/envs/single_cell
