@@ -6,13 +6,26 @@
 
 **02. How Does Single-Cell RNA-Seq Work?** 👩🏽‍🔬
 
-1. Isolate single cells.
-2. Techniques like microfluidics, fluorescence-activated cell sorting (FACS), or manual pipetting.
-3. Cell Lysis and RNA Extraction
-4. Reverse Transcription and cDNA Library Construction
-5. Amplification and Sequencing
-6. Data Analysis 
+1. Isolate single cells (techniques like microfluidics, fluorescence-activated cell sorting (FACS), or manual pipetting).
+2. Cell Lysis and RNA Extraction
+3. Reverse Transcription and cDNA Library Construction
+4. Amplification and Sequencing
+5. Data Analysis 
 
-**03. Let's analyze some data!**
+**03. Retrieve data** 🗂️ 	
 
-We are going to navigate to https://www.10xgenomics.com/datasets. For this tutorial select filter products, Single Cell gene expressions,
+We are going to navigate to https://www.10xgenomics.com/datasets. Filter products following your interests. 
+
+**04. Clustering and Biomarkers** 🧬
+Run the scRNAseq_tutorial.R script for doing the following steps:
+
+1. Load a count matrix
+2. QC and filtering
+3. Normalization
+4. Identify highly variable genes
+5. Scale data
+6. PCA
+7. Clustering
+8. Nonlinear-dimensionality reduction
+9. Biomarkers
+
